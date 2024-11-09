@@ -1,0 +1,14 @@
+[project]
+name = "arc-agi-quickstart"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "betamark",
+    "openai>=1.54.3",
+    "python-dotenv>=1.0.1",
+]
+
+[tool.uv.sources]
+betamark = { git = "https://github.com/exobyte-labs/betamark.git" }
