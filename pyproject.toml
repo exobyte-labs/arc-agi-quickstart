@@ -6,9 +6,12 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "betamark",
+    "cerebras-cloud-sdk>=1.10.0",
+    "groq>=0.11.0",
+    "matplotlib>=3.9.2",
     "openai>=1.54.3",
     "python-dotenv>=1.0.1",
 ]
 
 [tool.uv.sources]
-betamark = { git = "https://github.com/exobyte-labs/betamark.git" }
+betamark = { git = "http://github.com/exobyte-labs/betamark.git" }
